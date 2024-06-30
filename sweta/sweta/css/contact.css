@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.intro-section, .form-section {
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding and border don't increase width */
+}
+
+.intro-section {
+    background-color: #007BFF;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.form-section {
+    background-color: #fff; /* Optional: For a different background color */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.registration-form {
+    text-align: left;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.registration-form input,
+.registration-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.registration-form button:hover {
+    background-color: #0056b3;
+}
+
+
+footer{
+    text-align: center;
+    padding: 2rem 0;
+}

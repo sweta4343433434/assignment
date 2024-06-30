@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Contact Page</title>
+</head>
+<body>
+    <navbar class="navbar">
+        <div class="logo">
+            <img src="./image/img.jpg" alt="Logo">
+            <a href="index.html"><h1>Name</h1></a>
+        </div>
+        <a href="contact.html">Contact</a>
+    </navbar>
+    <section class="intro-section">
+        <div class="container">
+            <p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque nobis asperiores exercitationem est enim earum eum atque perferendis iste, fugit ipsa. Dicta reprehenderit libero possimus! Facilis similique ipsam quo maiores!</p>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <div class="container">
+            <form class="registration-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="genre">Favorite Genre:</label>
+                <select id="genre" name="genre" required>
+                    <option value="platformer">Platformer</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="puzzle">Puzzle</option>
+                    <option value="action">Action</option>
+                </select>
+
+                <label for="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    Subscribe to newsletter
+                </label>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <small>All rights reserved</small>
+    </footer>
+</body>
+</html>
